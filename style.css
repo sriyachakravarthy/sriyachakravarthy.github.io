@@ -3,17 +3,18 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background: #f0f8ff; /* Light cyan background */
 }
 
 header {
-    background: #333;
+    background: #40e0d0; /* Turquoise */
     color: #fff;
     padding: 1em 0;
     text-align: center;
 }
 
 nav ul {
-    background: #444;
+    background: #20b2aa; /* Light sea green */
     color: #fff;
     list-style: none;
     padding: 0;
@@ -30,19 +31,30 @@ nav ul li a {
     padding: 0.75em;
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    background: #555;
+    background: #40e0d0; /* Hover in turquoise */
 }
 
 section {
     padding: 2em;
     margin: 2em 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #40e0d0; /* Turquoise */
 }
 
 footer {
-    background: #333;
+    background: #40e0d0; /* Turquoise */
     color: #fff;
     text-align: center;
     padding: 1em 0;
