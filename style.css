@@ -3,19 +3,19 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f0f8ff; /* Light cyan background */
+    background: #3f91d8; 
 }
 
 header {
     background: #40e0d0; /* Turquoise */
-    color: #fff;
+    color: #0e0d0d;
     padding: 1em 0;
     text-align: center;
 }
 
 nav ul {
-    background: #20b2aa; /* Light sea green */
-    color: #fff;
+    background: #3f91d8; /* Light sea green */
+    color: #050505;
     list-style: none;
     padding: 0;
     display: flex;
@@ -29,7 +29,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 0.75em;
-    color: #fff;
+    color: #0c0707;
     text-decoration: none;
     font-weight: bold;
 }
