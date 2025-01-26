@@ -44,7 +44,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-size:cover;
-	min-height: 550px;
+	min-height: 50px;
 }
 .header-top {
 	padding-top: 3em;
@@ -151,13 +151,13 @@ nav a:focus {
 	color: #eee;
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
-	font-size: 2.4em;
+	font-size: 2.5em;
 }
 .banner_center h2 {
 	color: #eee;
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
-	font-size: 2.4em;
+	font-size: 2.5em;
 	padding:7px 0;
 }
 .banner_center h2 span
@@ -735,7 +735,7 @@ color: #fefefe;
 text-align: center;
 padding:30px 0;
 }
-.social-icon i{
+/* .social-icon i{
 	width:40px;
 	height:40px;
 	background: url("../images/img-sprite.png") no-repeat 0px 0px;
@@ -746,8 +746,8 @@ padding:30px 0;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-}
+	-ms-transition:0.5s all; */
+/* }
 .social-icon a i.icon1{
 	background-position:0px 0px;
 }
@@ -795,7 +795,7 @@ padding:30px 0;
 }
 .social-icon a i.icon8:hover{
 	background-position:-280px -40px;
-}
+} */
 .contact {
 	padding-bottom:4em;
 border-bottom: 1px solid#55626f;
@@ -1529,16 +1529,16 @@ padding-bottom: 2em;
 			padding: 15px 0px;
 		}
 		.social-icon {
-			padding: 10px 0;
+			padding: 0px 0;
 		}
-		.social-icon i {
+		/* .social-icon i {
 			width: 30px;
 			height: 30px;
 			background: url("../images/img-sprite.png") no-repeat 0px 0px;
 			display: inline-block;
 			background-size: 420px;
-		}
-		.social-icon a i.icon1 {
+		} */
+		/* .social-icon a i.icon1 {
 		background-position: -3px -3px;
 		}
 		.social-icon a i.icon1:hover {
@@ -1585,7 +1585,7 @@ padding-bottom: 2em;
 		}
 		.social-icon a i.icon8:hover {
 			background-position: -237px -34px;
-		}
+		} */
 			.footer-bottom p {
 			font-size: 13px;
 		}
@@ -1597,3 +1597,51 @@ padding-bottom: 2em;
 			top: 7px;
 		}
 		}
+				/* Reset the conflicting sprite styles for the mail icon */
+		/* Common styles for social icons */
+		/* Remove any Twitter icon CSS */
+		.social-icon a i.icon1 {
+			background-position: 0px 0px; /* Twitter icon positioning */
+		}
+
+		.social-icon a i.icon1:hover {
+			background-position: 0px 0px; /* Twitter hover effect */
+		}
+
+		.social-icon a {
+			margin: 0 10px;
+			text-decoration: none;
+		}
+
+		.social-icon i {
+			font-size: 40px; /* Adjust size for all icons */
+			transition: 0.5s all; /* Smooth hover transition */
+		}
+
+		/* Mail Icon */
+		.social-icon .mail-icon i {
+			color: #ef664d;
+		}
+
+		.social-icon .mail-icon i:hover {
+			color: #d5d6d7;
+		}
+
+		/* GitHub Icon */
+		.social-icon .github-icon i {
+			color: #333; /* GitHub default black */
+		}
+
+		.social-icon .github-icon i:hover {
+			color: #d5d6d7;
+		}
+
+		/* LinkedIn Icon */
+		.social-icon .linkedin-icon i {
+			color: #0077b5; /* LinkedIn blue */
+		}
+
+		.social-icon .linkedin-icon i:hover {
+			color: #d5d6d7;
+		}
+
